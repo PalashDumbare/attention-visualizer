@@ -2,9 +2,9 @@
 
 import numpy as np
 
-from embeddings import create_embedding_matrix, embed_tokens
-from tokenizer import build_vocab, text_to_tokens
-from attention import compute_attention_weights
+from .attention import compute_attention_weights
+from .embeddings import create_embedding_matrix, embed_tokens
+from .tokenizer import build_vocab, text_to_tokens
 
 
 DEFAULT_TEXT = "Cat sat on a mat"

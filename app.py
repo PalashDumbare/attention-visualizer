@@ -1,7 +1,7 @@
 """Command-line entry point for the attention weight visualizer."""
 
-from pipeline import build_attention_weights
-from visualization import plot_attention_weights
+from src.pipeline import build_attention_weights
+from src.visualization import plot_attention_weights
 
 
 def main() -> None:
